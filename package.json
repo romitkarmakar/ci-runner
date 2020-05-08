@@ -1,0 +1,19 @@
+{
+  "name": "ci-runner",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/romitkarmakar/ci-runner.git",
+  "author": "romit karmakar <romitkarmakar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon npm start"
+  }
+}
